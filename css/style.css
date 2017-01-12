@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}¬
+
+.demo {
+    display: block;
+    margin: 50px 0;
+}
+
+.pic {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 5px;
+
+}
+
+.pictures {
+    width: 770px;
+    height: 110px;
+    background: #ff8594;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pic-pack {
+    padding: 10px;
+    width: 810px;
+    height: 150px;
+    background: #4b6aff;
+}
+
+.pic1 {
+    box-sizing: border-box;
+    width: 110px;
+    height: 110px;
+    float: left;
+    padding: 5px;
+
+}
+
+.pictures1 {
+    box-sizing: border-box;
+    width: 790px;
+    height: 130px;
+    background: #ff8594;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pic-pack1 {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 830px;
+    height: 170px;
+    background: #4b6aff;
+}
+
+.pic3 {
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    /*width: 100px;*/
+    height: 100px;
+    -webkit-flex: 1;
+    flex: 1;
+
+}
+
+.pictures3 {
+
+    background: #ff8594;
+    width: 770px;
+    padding: 10px;
+    height: 100px;
+    -webkit-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-box-flex: 7;
+    -moz-box-flex: 7;
+    display: -webkit-flex;
+
+}
+
+.pic4 {
+    width: 100px;
+    height: 100px;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+
+
+}
+
+.pictures4 {
+    /*旧 */
+    display: -webkit-box;
+    /*display: -webkit-flex;*/
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    /*-webkit-flex-direction: column;*/
+    /*居中*/
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+
+    -
+    /*End 居中*/
+    /*权重*/
+    -webkit-flex: 1;
+    /*End 权重*/
+    background: #ff8594;
+    width: 110px;
+    height: 770px;
+    padding-top: 10px;
+}
+
+/*排序*/
+.img1 {
+    order: 2
+}
+
+.img2 {
+    order: 4
+}
+
+.img3 {
+    order: 3
+}
+
+.img4 {
+    order: 2
+}
+
+.img5 {
+    order: 1
+}
+
+.img6 {
+    order: 7
+}
+
+.img7 {
+    order: 6
+}
+
+/*End 排序*/
+
+/*分栏*/
+.col {
+    display: -webkit-box;
+
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -web-column-count: 3;
+    column-count: 3;
+    width: 800px;
+    height: 1000px;
+    background: darkgreen;
+    -webkit-column-gap: 20px;
+    -webkit-column-rule-style: dotted;
+    column-rule-style: dotted;
+}
+
+/*End 分栏*/
